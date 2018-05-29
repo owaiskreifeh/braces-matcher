@@ -1,4 +1,4 @@
 rm -drf dist
 mkdir dist
 g++ main.cpp -o dist/checker.exe 
-./dist/main.exe $@
+./dist/checker.exe $@
