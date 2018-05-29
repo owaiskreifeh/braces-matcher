@@ -1,5 +1,4 @@
 rm -drf dist
 mkdir dist
-g++ main.cpp -o dist/main.exe 
-chmod +x dist/main.exe 
+g++ main.cpp -o dist/checker.exe 
 ./dist/main.exe $@
