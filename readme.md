@@ -4,12 +4,14 @@ check if every tag has a closing tag in the right order
 # Usage
 ## Direct string
  ```bash
+$ chmod +x checker.exe # give it permission to execute
 $ ./dist/checker.exe [string to check]
 # Example: 
 $ ./dist/checker.exe '( { "<" : ">" } )'
 ```
 ## File 
 ```bash
+$ chmod +x checker.exe # give it permission to execute
 $ ./dist/checker.exe -f [filename]
 # Example:
 $ ./dist/checker.exe -f testFile
