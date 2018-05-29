@@ -1,0 +1,5 @@
+rm -drf dist
+mkdir dist
+g++ main.cpp -o dist/main.exe 
+chmod +x dist/main.exe 
+./dist/main.exe $@

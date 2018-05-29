@@ -1,0 +1,13 @@
+function (good){
+  if(good) return true;
+  else
+    return vector<string>
+}
+
+function fetch(url, cb){
+  get(url);
+  if(!error) cb({
+    'stat': good,
+    'code': 200
+  })
+}
